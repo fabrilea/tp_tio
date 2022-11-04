@@ -1,54 +1,242 @@
+.\31-background{
+  display: flex;
+  flex-direction:column-reverse;
+  justify-content: space-around;
+  border-radius: 5px;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 5px;
+
+  background-image: url("../image/deponia.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.\31-titulo, .\31-descripcion{
+  padding: 10px ;
+}
+
+.\31-nombre{
+  width: 20%;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.\31-nombre, .\31-titulo, .\31-descripcion {
+  color: rgb(74 164 169) ;
+  text-shadow: 1px 1px rgb(75 201 209);
+  font-size: 2rem;
+  /* text-shadow: -7px -4px #076f64; */
+  text-align: center;
+}
+
 .\32-nombre, .\32-titulo, .\32-descripcion {
-    border: dashed 2px white;
-    background-color: rgb(137, 30, 30);
-    font-style: oblique;
-    color: white;
+  border: dashed 2px white;
+  background-color: rgb(137, 30, 30);
+  font-style: oblique;
+  color: white;
 }
 
 .\32-imagen {
-    width: 30%;
-    height: 20%;
+  width: 30%;
+  height: 20%;
+}
+.\34-background{
+  background-image: url("../image/minecraft.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 5px;
+}
+.\34-titulo{
+
+  color:rgb(247, 247, 247);
+  text-align: center;
+  text-shadow: 6px 6px  rgba(2, 148, 19, 0.614);
+  font-size: 5rem;
+
+
+}
+.\34-descripcion {
+  color: whitesmoke;
+  text-shadow: 2px 2px  rgb(32, 158, 220);
+  margin: 2%;
+  font-family: 'arial';
+  src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-size: 2rem;
+}
+.\34-nombre {
+  color: black;
+  font-style: arial;
+  font-size: 2rem;
+}
+.\35-background{
+  background-image: url("../image/valorant.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 5px;
+}
+.\35-titulo{
+  src: url('../css/fonts/Valorant Font.ttf') format('truetype');
+  font-family: 'Valorant';
+  color:rgb(247, 247, 247);
+  text-align: center;
+  text-shadow: 6px 6px  rgba(47, 0, 255, 0.614);
+  font-size: 6rem;
+}
+.\35-descripcion {
+  color: whitesmoke;
+  text-shadow: 2px 2px  rgb(255, 0, 0);
+  margin: 2%;
+  src: url('../css/fonts/Valorant Font.ttf') format('truetype');
+  font-family: 'Valorant';
+  font-weight: normal;
+  font-size: 2rem;
+  margin-top: 2.5em;
+}
+.\35-nombre {
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-family: 'Valorant';
+  src: url('../css/fonts/Valorant Font.ttf') format('truetype');
+  font-size: 1.5rem;
 }
 
-section {
-    height: auto;
-    width: 95%;
-    margin: 2%;
+.\37-background {
+  background-image: url("../image/eastward_img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 5px;
 }
-  
-  .pie{
-    background: #140b5c;
-    width: 100%;
-  }
-  
-  .section{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-    gap: 20px;
-  
-  }
-  .section div{
-    display: flex;
-    flex-direction: column;
-  }
-  div h2{
-    color: white;
-    padding: 1px 0;
-  }
-  a{
-    padding: 5px;
-  }
-  .derechos{
-    display: flex;
-    justify-content: space-between;
-    padding: 8px;
-    background: #0a0433;
-    color: white;
-  }
-  .p-footer{
-    color: grey;
-    padding:0px;
-  }
+
+.\37-titulo {
+  color: rgb(227, 227, 126);
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'East Sea Dokdo';
+  src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
+}
+
+.\37-nombre {
+  color: rgb(227, 227, 126);
+  font-style: italic;
+  text-decoration: underline;
+  font-family: 'East Sea Dokdo';
+  src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
+  font-size: 2rem;
+}
+
+.\37-descripcion {
+  color: whitesmoke;
+  text-shadow: 2px 2px  rgb(227, 227, 126);
+  margin: 2%;
+  font-family: 'East Sea Dokdo';
+  src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+.\36-background {
+  background-image: url("../image/bioshock-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 5px;
+}
+.\36-titulo, .\36-descripcion {
+  src: url('..css/fonts/ANNAI.ttf') format('truetype');
+  font-family: 'Anna ITC TT';
+}
+.\36-titulo {
+font-size: 5rem;
+color: #b6b6b6;
+text-shadow: -7px -4px #076f64;
+text-align: center;
+}
+.\36-descripcion{
+color: whitesmoke;
+font-size: 2rem;
+text-shadow: 1px 1px #e7e5c1;
+}
+.\36-nombre{
+  font-size: 2rem;
+  color: #076f64;
+}
+
+.introduccion{
+  text-align: center;
+}
+body {
+  background-color: whitesmoke;
+}
+.introduccion{
+  margin: 5px;
+  text-align: center;
+  text-shadow: 1px 1px rgb(79, 168, 152);
+  font-family: 'Garamond', serif;
+}
+.introduccion h1 {
+  font-size: 4rem;
+}
+section {
+  height: auto;
+  width: 95%;
+  margin: 2%;
+} 
+.pie{
+  background: #140b5c;
+  width: 100%;
+}
+
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  gap: 20px;
+
+}
+.section div{
+  display: flex;
+  flex-direction: column;
+}
+div h2{
+  color: white;
+  padding: 1px 0;
+}
+a{
+  padding: 5px;
+}
+.derechos{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background: #0a0433;
+  color: white;
+}
+.p-footer{
+  color: grey;
+  padding:0px;
+}
